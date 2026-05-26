@@ -4,7 +4,7 @@ export default function Projects() {
   return (
     <div class="section-dkblue">
       <section id="projects">
-        <h2>Innovations I Stand Behind</h2>
+        <h2>innovations i stand behind</h2>
 
         <Project
           name="Apple.com CLone"
