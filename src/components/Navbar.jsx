@@ -1,11 +1,11 @@
-import { Github, Linkedin } from "./SVG";
+import { Github, Linkedin, Code } from "./SVG";
 export default function Navbar() {
   return (
     <nav>
       <ul>
         <li>
           <h1>
-            <span class="fa-solid fa-code"></span>
+            <Code />
             <span>memphis</span>
           </h1>
         </li>
