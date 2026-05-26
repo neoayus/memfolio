@@ -6,7 +6,7 @@ export default function Navbar() {
         <li>
           <h1>
             <Code />
-            <span>memphis</span>
+            <span>portfolio</span>
           </h1>
         </li>
         <li>

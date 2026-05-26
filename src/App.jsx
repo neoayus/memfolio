@@ -9,10 +9,9 @@ export default function App() {
     <>
       <Navbar />
       <ProfileIntro />
-      <div className="gradient"></div>
       <ProjectGroup />
+      {/* <div className="gradient"></div> */}
       <ContactSection />
-      <div className="gradient"></div>
       <Footer />
     </>
   );

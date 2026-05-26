@@ -6,56 +6,51 @@ export default function Projects() {
       <section id="projects">
         <h2>innovations i stand behind</h2>
 
+        {/* portfolio */}
         <Project
-          name="Apple.com CLone"
+          name="Memfolio"
+          reverse={false}
+          shortdesc="Static personal portfolio site (react)"
+          description="Memfolio is my personal portfolio website designed to showcase my projects, skills, and development journey. I originally created it as a simple website and later rewrote the entire project in React to improve maintainability, component reusability, and overall frontend structure. The project reflects my interest in modern frontend development, clean UI design, and efficient developer workflows. It also helped me gain hands-on experience with React fundamentals, project architecture, and responsive design."
+          techstack="HTML CSS JS REACT"
+          imageURL={"./memfolio.png"}
+        />
+
+        {/*  raptv pot generator*/}
+        <Project
+          name="RapTv Post Generator"
           reverse={true}
-          shortdesc="Frontend Project Using (HTML, CSS & JS)"
-          description="This project is a responsive web clone of the official Apple website, developed using HTML, CSS, and JavaScript. The goal was to recreate the look and feel of the Apple homepage, showcasing products with elegant design and clean UI elements."
-          techstack="HTML CSS JS"
-          imageURL={"./apple-clone.png"}
+          shortdesc="Custom WebApp for IG Media Page (RapTv inspired)"
+          description="This project is a custom Instagram post generator built for some Dhh media page to streamline the process of creating RapTV-style news posts. The application takes an image and headline/news content as input, automatically highlights important words, and generates a ready-to-upload Instagram post within seconds. The core logic and layout system were inspired by another project of mine a lyric card generator app and were adapted to fit fast-paced social media news content. The project helped me explore dynamic text rendering, automated design workflows, and content-focused UI generation while building something practical for real-world use."
+          techstack="REACT HTML2IMAGE "
+          imageURL={"./raptvPostGen.png"}
         />
 
         <Project
-          name="Personal Portfolio"
-          shortdesc="Latest Project"
-          description="Memfolio is a personal portfolio website designed to showcase my work, skills, and journey as a Computer Science student. Built using HTML, CSS, and JavaScript, this project demonstrates clean design principles and effective use of front-end technologies."
-          techstack="HTML CSS"
-          imageURL={"./memfollio.png"}
+          name="YomiBashi"
+          reverse={false}
+          shortdesc="Japanese Subtitle Converter (Kanji to Romaji)"
+          description="YomiBashi is a React-based web application that helps Japanese language learners convert Japanese .srt subtitle files into a more beginner-friendly romaji format. The project was built to solve a common issue for new learners who struggle reading Kanji-heavy subtitles while watching anime, movies, or TV shows. Users can upload subtitle files, send them to a FastAPI backend for processing, and download the converted result through a simple mobile-first interface. While building the project, I worked on frontend-backend integration, file upload handling, API communication, and creating a clean, distraction-free experience focused on practical language learning."
+          techstack="REACT REST API PYTHON "
+          imageURL={"./yomibashi.png"}
         />
 
         <Project
+          name="lyriQ"
           reverse={true}
-          shortdesc="JS Project"
-          name="Weather App wih API"
-          description="WeatherApp.js is a simple, interactive weather application built using HTML, CSS, and JavaScript. The app allows users to input any location and get real-time weather information, including temperature, weather conditions, and more.It fetches data from the OpenWeather API and displays it in a clean, user-friendly interface. The application also demonstrates skills in API integration, DOM manipulation, and responsive design."
-          techstack="HTML CSS JS API"
-          imageURL={"./weather-app.png"}
+          shortdesc="lyrics card web app (genius.com inspired)"
+          description="LyriQ is a lightweight lyric card generator inspired by the Genius Android app, built for creating custom lyric cards for songs, snippets, and unreleased tracks that may not exist on Genius. Users can upload background images, add custom lyrics and song details, and export cards in social-media-friendly formats like 1:1 and 4:5. While building the project, I worked with DOM-to-image rendering using the html-to-image library and solved image export issues by converting uploaded files from Blob URLs to Base64 using the FileReader API, ensuring background images rendered correctly during export."
+          techstack="REACT HTML2IMAGE"
+          imageURL={"./lyriqs.png"}
         />
 
         <Project
-          reverse={true}
-          shortdesc="Frontend Project"
-          name="Netflix Clone (using HTML & CSS)"
-          description="This project is a Static clone of the Netflix homepage, developed using HTML, CSS. It aims to replicate the visual layout and functionality of Netflix, with a focus on front-end design Only."
-          techstack="HTML CSS"
-          imageURL={"./netflix-clone.png"}
-        />
-
-        <Project
-          shortdesc="Frontend Project"
-          name="Hulu Clone (using HTML & CSS)"
-          description="This project is a static clone of the Hulu homepage, developed using HTML and CSS. The goal of this project is to replicate the visual layout of Hulu with a focus on front-end design elements."
-          techstack="HTML CSS"
-          imageURL={"./hulu-clone.png"}
-        />
-
-        <Project
-          reverse={true}
-          shortdesc="Frontend Project"
-          name="Amazon Clone (using HTML & CSS)"
-          description="This project is a static clone of the Amazon homepage, created using HTML and CSS. The aim of this project is to replicate the core visual elements of Amazon’s homepage with a focus on layout, design, and responsiveness."
-          techstack="HTML CSS"
-          imageURL={"./amazon-clone.png"}
+          name="other web apps"
+          reverse={false}
+          shortdesc=""
+          description="Frontend Practice Collection is a repository containing multiple small frontend projects, website recreations, and UI experiments built during my learning journey. The collection includes projects such as Apple.com desktop clones, Figma-to-code recreations, SaaS landing pages, Hulu-inspired interfaces, weather applications, and various CSS/JavaScript experiments. Instead of treating them as standalone projects, I grouped them together as a showcase of consistent frontend practice, layout building, responsive design work, and hands-on experimentation with modern web development concepts."
+          techstack="HTML CSS JS SASS-CSS"
+          imageURL={"./lyriqs.png"}
         />
       </section>
     </div>

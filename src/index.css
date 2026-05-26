@@ -143,8 +143,9 @@ nav h1[class*="fa-"]{
     color: white ;
     background-color: var(--magenta);
     padding: 0.5rem ;
-    border-radius: 5px;
+    border-radius: 4px;
     font-family: var(--mono);
+    font-size: 14px;
     text-decoration: none;
     &:hover{
         color: var(--white) ;
@@ -155,7 +156,7 @@ nav h1[class*="fa-"]{
 
 /* #Intro Styling  */
 #intro{
-    padding: 4rem 1rem 10rem 1rem ; 
+    padding: 4rem 1rem 8rem 1rem ; 
     max-width: 1200px;
     margin: 0 auto ;
 }
@@ -198,6 +199,7 @@ a{
     text-align: center ;
     margin: 0 auto ; 
     padding: 2rem 0 ; 
+    font-size: l2px;
 }
 
 #contact p:last-child{

@@ -2,15 +2,14 @@ export default function ProfileIntro() {
   return (
     <section id="intro">
       <p class="name">
-        What's Up? I'm<span>Ayush</span>
+        Hey, I am<span>Ayush Semwal</span>
       </p>
-      <h2>Sophomore CS Major</h2>
+      <h2>Computer Science Major</h2>
       <p>
-        I’m currently focused on mastering the MERN stack (MongoDB, Express,
-        React, and Node.js). Besides web development, I have a strong interest
-        in efficient coding workflows, which is why I’m a huge fan of.. (nvim
-        btw), <br />
-        also i want everything what primeagen has.{" "}
+        Recently graduated and currently diving deep into React and frontend
+        development. <br /> Outside of coding, I spend way too much time
+        tweaking Linux, exploring dev tools, terminal workflows, and making
+        everything faster than it needs to be.
       </p>
     </section>
   );
