@@ -2,7 +2,7 @@ import Navbar from "./components/Navbar";
 import ProfileIntro from "./components/ProfileIntro";
 import ContactSection from "./components/ContactSection";
 import Footer from "./components/Footer";
-import Projects from "./components/Projects";
+import ProjectGroup from "./components/ProjectGroup";
 
 export default function App() {
   return (
@@ -10,7 +10,7 @@ export default function App() {
       <Navbar />
       <ProfileIntro />
       <div class="gradient"></div>
-      <Projects />
+      <ProjectGroup />
       <ContactSection />
       <div class="gradient"></div>
       <Footer />

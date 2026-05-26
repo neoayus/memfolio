@@ -7,7 +7,7 @@ export default function Project({
   imageURL,
 }) {
   return (
-    <article class={reverse ? "reverse" : ""}>
+    <article class={reverse && "reverse"}>
       <div class="text">
         <h4>{shortdesc}</h4>
         <h3>{name}</h3>
