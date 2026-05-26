@@ -321,3 +321,10 @@ footer ul{
         width: 380px ;
     }
 }
+
+.icon{
+    width: 36px;
+}
+.icon.linkedin{
+    width: 24px;
+}

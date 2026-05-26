@@ -1,3 +1,4 @@
+import { Github, Linkedin } from "./SVG";
 export default function Navbar() {
   return (
     <nav>
@@ -19,12 +20,12 @@ export default function Navbar() {
         </li>
         <li>
           <a href="https://www.linkedin.com/in/ayush-semwal-602183285/">
-            <i class="fa-brands fa-linkedin" aria-hidden="true"></i>
+            <Linkedin />
           </a>{" "}
         </li>
         <li>
           <a href="https://github.com/neoayus">
-            <i class="fa-brands fa-github"></i>
+            <Github />
           </a>
         </li>
         <li>

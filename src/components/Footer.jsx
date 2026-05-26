@@ -1,3 +1,5 @@
+import { Github, Linkedin, Mail } from "./SVG";
+
 export default function Footer() {
   return (
     <footer>
@@ -5,17 +7,17 @@ export default function Footer() {
       <ul>
         <li>
           <a href="https://www.linkedin.com/in/ayush-semwal-602183285/">
-            <i class="fa-brands fa-linkedin" aria-hidden="true"></i>
+            <Linkedin />
           </a>
         </li>
         <li>
           <a href="https://github.com/neoayus">
-            <i class="fa-brands fa-github"></i>
+            <Github />
           </a>
         </li>
         <li>
           <a href="mailto:ayus43@outlook.com">
-            <i class="fa-solid fa-envelope"></i>
+            <Mail />
           </a>
         </li>
       </ul>
