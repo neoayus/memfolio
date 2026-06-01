@@ -34,7 +34,7 @@ export default function About() {
             <li>nvim</li>
           </ul>
         </div>
-        <img src="./assets/images/projects/my-pfp.png" />
+        <img src="./linkedin-cover.png" />
       </article>
     </section>
   );
