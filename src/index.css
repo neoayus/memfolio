@@ -366,5 +366,6 @@ footer ul{
     border-top: 1px solid var(--aqua);
     border-radius: 40px;
     padding: 1rem;
+    grid-column: 1/6;
+    grid-row: 1/2;
 }
-

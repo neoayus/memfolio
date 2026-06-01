@@ -12,7 +12,7 @@ export default function Projects() {
           reverse={false}
           shortdesc="Static personal portfolio site (react)"
           description="Memfolio is my personal portfolio website designed to showcase my projects, skills, and development journey. I originally created it as a simple website and later rewrote the entire project in React to improve maintainability, component reusability, and overall frontend structure. The project reflects my interest in modern frontend development, clean UI design, and efficient developer workflows. It also helped me gain hands-on experience with React fundamentals, project architecture, and responsive design."
-          techstack="HTML CSS JS REACT"
+          techstack="React React-Router"
           imageURL={"./memfolio.png"}
         />
 
