@@ -22,7 +22,7 @@ export default function About() {
             experiments, projects, and the things I continue learning every day
             while growing as a developer.
           </p>
-          <h4>My favourite Technologies includes:</h4>
+          <h4>My favourite Technologies includes</h4>
           <ul>
             <li>Html</li>
             <li>Css</li>
