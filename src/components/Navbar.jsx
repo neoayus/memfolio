@@ -33,7 +33,7 @@ export default function Navbar() {
           </a>
         </li>
         <li>
-          <a href="#resume" class="button">
+          <a href="/resume-ayush_semwal.pdf" download className="button">
             Resume
           </a>
         </li>
