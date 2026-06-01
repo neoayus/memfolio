@@ -1,27 +1,31 @@
+import { Link } from "react-router-dom";
 import { Github, Linkedin, Code } from "./SVG";
+
 export default function Navbar() {
   return (
     <nav>
       <ul>
         <li>
-          <h1>
-            <Code />
-            <span>portfolio</span>
-          </h1>
+          <Link to="/#intro">
+            <h1>
+              <Code />
+              <span> portfolio</span>
+            </h1>
+          </Link>
         </li>
         <li>
-          <a href="#projects">Projects</a>
+          <Link to="/#projects">Projects</Link>
         </li>
         <li>
-          <a href="./about.html">About</a>
+          <Link to="/about">About</Link>
         </li>
         <li>
-          <a href="#contact">Contact</a>{" "}
+          <Link to="/#contact">Contact</Link>
         </li>
         <li>
           <a href="https://www.linkedin.com/in/ayush-semwal-602183285/">
             <Linkedin />
-          </a>{" "}
+          </a>
         </li>
         <li>
           <a href="https://github.com/neoayus">

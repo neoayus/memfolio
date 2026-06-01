@@ -1,27 +1,41 @@
 export default function About() {
   return (
-    <article>
-      <div class="text">
-        <h3>Behind the Code</h3>
-        <p class="blackbox">
-          Hey! I'm Ayush, a sophomore Computer Science major. Currently diving
-          deep into the MERN stack, I’m always exploring new ways to bring ideas
-          to life through code. Whether it's customizing my workflow with Neovim
-          or creating responsive web applications, I strive to learn, improve,
-          and innovate with every project. This space is a reflection of my
-          journey in tech, my projects, and the things that inspire me every
-          day. Let’s build something amazing together!
-        </p>
-        <h4>My favourite Technologies includes:</h4>
-        <ul>
-          <li>NVIM</li>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>JS</li>
-          <li>Java</li>
-        </ul>
-      </div>
-      <img src="./assets/images/projects/my-pfp.png" />
-    </article>
+    <section id="about">
+      <article>
+        <div className="text">
+          <h3>Behind the Code</h3>
+          <p className="blackbox">
+            Hey! I'm Ayush, a developer obsessed with building clean,
+            responsive, and thoughtfully designed web experiences. Most of my
+            time currently goes into React, frontend architecture, Linux
+            customization, and sharpening my full-stack development skills one
+            project at a time.
+            <br /> <br />
+            I enjoy understanding how things work under the hood whether that
+            means configuring my Neovim setup, automating workflows with Linux
+            tools, or structuring scalable React applications with better UI/UX
+            patterns.
+            <br /> <br />
+            Beyond just coding, I’m deeply interested in creating polished
+            developer experiences, improving design systems, and turning rough
+            ideas into functional products. This portfolio is a collection of my
+            experiments, projects, and the things I continue learning every day
+            while growing as a developer.
+          </p>
+          <h4>My favourite Technologies includes:</h4>
+          <ul>
+            <li>Html</li>
+            <li>Css</li>
+            <li>Js</li>
+            <li>React.js</li>
+            <li>MERN Stack</li>
+            <li>Java</li>
+            <li>linux</li>
+            <li>nvim</li>
+          </ul>
+        </div>
+        <img src="./assets/images/projects/my-pfp.png" />
+      </article>
+    </section>
   );
 }

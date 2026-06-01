@@ -1,18 +1,20 @@
-import Navbar from "./components/Navbar";
-import ProfileIntro from "./components/ProfileIntro";
-import ContactSection from "./components/ContactSection";
-import Footer from "./components/Footer";
-import ProjectGroup from "./components/ProjectGroup";
+import { Routes, Route } from "react-router-dom";
+
+import Layout from "./Layout/Layout";
+
+import HomePage from "./Pages/HomePage";
+import AboutPage from "./Pages/AboutPage";
 
 export default function App() {
   return (
-    <>
-      <Navbar />
-      <ProfileIntro />
-      <ProjectGroup />
+    <Routes>
+      <Route path="/" element={<Layout />}>
+        <Route index element={<HomePage />} />
+        <Route path="about" element={<AboutPage />} />
+      </Route>
+
+      {/* uncomment this if you need a separator between 2 components */}
       {/* <div className="gradient"></div> */}
-      <ContactSection />
-      <Footer />
-    </>
+    </Routes>
   );
 }
