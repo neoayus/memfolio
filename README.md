@@ -8,3 +8,5 @@ Memfolio is my personal portfolio website designed to serve as a central place f
 
 ### Live link 
 [memfolio@netlify](https://memfolio.netlify.app/)
+
+![memfolio](./memfolio.png)
